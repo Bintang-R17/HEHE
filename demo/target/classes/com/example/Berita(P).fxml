@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1750.0" prefWidth="1920.0" style="-fx-background-color: fffafa;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.BeritaController">
+    <content>
+        <Pane prefHeight="2000.0" prefWidth="1920.0" style="-fx-background-color: fffafa;">
+            <children>
+                <Label layoutX="225.0" layoutY="168.0" text="Berita">
+                    <font>
+                        <Font name="Tw Cen MT Condensed Extra Bold" size="40.0" />
+                    </font>
+                </Label>
+                <TextFlow layoutX="225.0" layoutY="224.0" prefHeight="64.0" prefWidth="775.0">
+                    <children>
+                        <Text layoutX="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tips Memiliki Keluarga Harmonis" wrappingWidth="743.553955078125">
+                            <font>
+                                <Font name="Segoe UI Semibold" size="24.0" />
+                            </font>
+                        </Text>
+                    </children>
+                </TextFlow>
+                <ImageView fitHeight="225.0" fitWidth="340.0" layoutX="1288.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../pexels-vlada-karpovich-4617316.jpg" />
+                    </image>
+                </ImageView>
+                <TextFlow layoutX="223.0" layoutY="265.0" prefHeight="130.0" prefWidth="741.0">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Keluarga yang harmonis adalah impian setiap keluarga, tetapi sering kali kita tidak bisa cara membuat keluarga kita sendiri Harmonis dan malah membuat keluarga jauh dari kata Hamonis. Kira-kira seperti apa?" wrappingWidth="739.16015625">
+                            <font>
+                                <Font name="Arial" size="18.0" />
+                            </font>
+                        </Text>
+                    </children>
+                </TextFlow>
+                <Text layoutX="223.0" layoutY="539.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pasangan 70 Tahun Setelah Gabung IIS" wrappingWidth="775.0">
+                    <font>
+                        <Font name="Segoe UI Semibold" size="24.0" />
+                    </font>
+                </Text>
+                <Pane layoutX="223.0" layoutY="88.0" prefHeight="52.0" prefWidth="1475.0" style="-fx-background-color: rgba(90, 155, 240, 1); -fx-background-radius: 5px;">
+                    <children>
+                        <Button fx:id="berandaButton" layoutX="58.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="113.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Beranda" textFill="WHITE">
+                            <font>
+                                <Font name="Segoe UI Semibold" size="20.0" />
+                            </font>
+                        </Button>
+                        <Button fx:id="beritaButton" layoutX="335.0" layoutY="5.0" mnemonicParsing="false" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Berita" textFill="WHITE">
+                            <font>
+                                <Font name="Segoe UI Semibold" size="20.0" />
+                            </font>
+                        </Button>
+                        <Button fx:id="bayarButton" layoutX="614.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Bayar" textFill="WHITE">
+                            <font>
+                                <Font name="Segoe UI Semibold" size="20.0" />
+                            </font>
+                        </Button>
+                        <Button fx:id="historyButton" layoutX="882.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="History" textFill="WHITE">
+                            <font>
+                                <Font name="Segoe UI Semibold" size="20.0" />
+                            </font>
+                        </Button>
+                        <Button fx:id="akunButton" layoutX="1290.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Akun" textFill="WHITE">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                        </Button>
+                        <Button fx:id="klaimButton" layoutX="1100.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Klaim" textFill="WHITE">
+                            <font>
+                                <Font name="Segoe UI Semibold" size="20.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </Pane>
+                <Text layoutX="223.0" layoutY="569.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pasangan ini memiliki cerita yang menyedihkan di masa tua. Mereka ditinggal oleh anak-anaknya yang saat ini sedang mereka butuhkan. Apa sih yang membuat pasangan ini dapat bertahan dalam kondisi pensiun umur 70 tahun dengan uang pesangon yang pas-pasan?" wrappingWidth="710.1533203125">
+                    <font>
+                        <Font name="Arial" size="18.0" />
+                    </font>
+                </Text>
+            <ImageView fitHeight="225.0" fitWidth="340.0" layoutX="1288.0" layoutY="535.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pexels-longkg2000-1642883.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="223.0" layoutY="859.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Penggunaan Kripto Menjadi Trend di Kalangan Anak Muda " wrappingWidth="775.0">
+               <font>
+                  <Font name="Segoe UI Semibold" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="223.0" layoutY="890.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Penggunaan Kripto terus melonjak di Indonesia! Bahkan sampai puncak tertinggi menduduki peringkat 10 besar asia pengguna kripto terbesar. Anak muda menjadi pengguna terbanyak sebanyak 70% Penggunaan." wrappingWidth="710.1533203125">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="225.0" fitWidth="340.0" layoutX="1288.0" layoutY="833.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pexels-weekendplayer-186464.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="223.0" layoutY="1175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pasangan yang Bergabung Setelah 5 Tahun" wrappingWidth="775.0">
+               <font>
+                  <Font name="Segoe UI Semibold" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="223.0" layoutY="1210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pasangan yang bergabung setelah 5 tahun ini telah melanjutkan hidupnya dengan IIS dan telah berkelimpahan." wrappingWidth="710.1533203125">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="225.0" fitWidth="340.0" layoutX="1288.0" layoutY="1149.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../pexels-pixabay-302083.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="KeluargaHarmonisButton" layoutX="223.0" layoutY="343.0" mnemonicParsing="false" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Baca" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="Berita2Button" layoutX="223.0" layoutY="653.0" mnemonicParsing="false" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Baca" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="Berita3Button" layoutX="223.0" layoutY="953.0" mnemonicParsing="false" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Baca" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="Berita4Button" layoutX="223.0" layoutY="1253.0" mnemonicParsing="false" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Baca" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            </children>
+        </Pane>
+    </content>
+</ScrollPane>

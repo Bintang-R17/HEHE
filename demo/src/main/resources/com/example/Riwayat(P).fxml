@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: fffafa;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.RiwayatController">
+   <children>
+      <Label layoutX="238.0" layoutY="170.0" text="Riwayat">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="40.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableView" layoutX="238.0" layoutY="224.0" prefHeight="237.0" prefWidth="731.0">
+         <columns>
+            <TableColumn fx:id="tcUsername" prefWidth="150.0" text="Username" />
+            <TableColumn fx:id="tcNoHP" prefWidth="150.0" text="NomorHP" />
+            <TableColumn fx:id="tcWaktuLogin" prefWidth="200.0" text="Waktu " />
+            <TableColumn fx:id="tcStatus" prefWidth="200.0" text="Status" />
+         </columns>
+      </TableView>
+      <Pane layoutX="223.0" layoutY="88.0" prefHeight="52.0" prefWidth="1475.0" style="-fx-background-color: rgba(90, 155, 240, 1); -fx-background-radius: 5px;">
+         <children>
+            <Button fx:id="berandaButton" layoutX="58.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="113.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Beranda" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Semibold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="beritaButton" layoutX="335.0" layoutY="5.0" mnemonicParsing="false" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Berita" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Semibold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="bayarButton" layoutX="614.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Bayar" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Semibold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="historyButton" layoutX="882.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="History" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Semibold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="akunButton" layoutX="1290.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Akun" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="klaimButton" layoutX="1100.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Klaim" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Semibold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</Pane>

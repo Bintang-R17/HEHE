@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: fffafa;" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.AkunAdminController">
+   <children>
+      <Pane layoutX="223.0" layoutY="88.0" prefHeight="52.0" prefWidth="1475.0" style="-fx-background-color: rgba(90, 155, 240, 1); -fx-background-radius: 5px;">
+         <children>
+            <Button fx:id="berandaButton" layoutX="58.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="113.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Beranda" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Semibold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="beritaButton" layoutX="335.0" layoutY="5.0" mnemonicParsing="false" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Berita" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Semibold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="bayarButton" layoutX="614.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Bayar" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Semibold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="historyButton" layoutX="882.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="History" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Semibold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="akunButton" layoutX="1290.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Akun" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="klaimButton" layoutX="1100.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Klaim" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Semibold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Label layoutX="225.0" layoutY="178.0" text="Beranda">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="40.0" />
+         </font>
+      </Label>
+      <TextFlow layoutX="225.0" layoutY="239.0" prefHeight="200.0" prefWidth="1082.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="IIS adalah sebuah aplikasi inovatif yang dirancang khusus untuk memenuhi kebutuhan asuransi dan investasi individu, dengan fokus utama pada mereka yang berusia di atas 40 tahun, termasuk mereka yang berada dalam masa pra-pensiun dan pensiun. Aplikasi ini bertujuan untuk memberikan solusi komprehensif dan personal dalam mengelola keuangan, asuransi, dan investasi, sehingga pengguna dapat menikmati masa pensiun yang aman dan sejahtera.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </TextFlow>
+      <TextFlow layoutX="636.0" layoutY="540.0" prefHeight="200.0" prefWidth="1006.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Kami mempunyai beberapa layanan berbasis Asuransi dan Investasi yang bisa digunakan sebagai penunjang masa tua. Asuransi yang kami tawarkan sudah mencakup beberapa asuransi, jadi 1 asuransi cukup untuk semua kebutuhan anda. Untuk menambah Ilmu mengenai dunia bisnis dan ekonomi, di aplikasi ini juga terdapat menu berita yang dapat dibaca. " wrappingWidth="705.162841796875">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </TextFlow>
+      <ImageView fitHeight="225.0" fitWidth="340.0" layoutX="1358.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Illustration%202.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="225.0" fitWidth="340.0" layoutX="225.0" layoutY="461.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Illustration%2016.png" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</Pane>

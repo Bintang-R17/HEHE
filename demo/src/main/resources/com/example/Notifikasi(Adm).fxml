@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.NotifikasiController">
+   <children>
+      <AnchorPane prefHeight="1080.0" prefWidth="1920.0">
+         <children>
+            <VBox layoutX="233.0" layoutY="246.0" prefHeight="200.0" prefWidth="1475.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                  <Label fx:id="notifikasiLabel" text="Label" />
+               </children>
+            </VBox>
+            <Text layoutX="233.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Notifikasi">
+               <font>
+                  <Font name="Segoe UI Semibold" size="36.0" />
+               </font>
+            </Text>
+         </children></AnchorPane>
+      <Pane layoutX="233.0" layoutY="98.0" prefHeight="52.0" prefWidth="1475.0" style="-fx-background-color: rgba(90, 155, 240, 1); -fx-background-radius: 5px;">
+         <children>
+            <Button fx:id="berandaButton" layoutX="58.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="113.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Beranda" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Semibold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="notifikasiButton" layoutX="301.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="165.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Notifikasi" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Semibold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="pengelolaanAkunButton" layoutX="634.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="207.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Pengelolaan Akun" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Semibold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="akunButton" layoutX="1328.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Akun" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="kirimButton" layoutX="1031.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="165.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Kirim Produk" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Semibold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</Pane>

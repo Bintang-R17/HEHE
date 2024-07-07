@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.KirimProdukKontroller">
+   <children>
+      <AnchorPane prefHeight="1080.0" prefWidth="1920.0">
+         <children>
+            <TableView fx:id="tableView" layoutX="307.0" layoutY="243.0" prefHeight="338.0" prefWidth="504.0" style="-fx-border-color: rgba(90, 155, 240, 1);">
+              <columns>
+                <TableColumn fx:id="usernameColumn" prefWidth="86.4000244140625" text="Username" />
+            <TableColumn fx:id="riwayatLoginColumn" prefWidth="102.39996337890625" text="Riwayat Login" />
+            <TableColumn fx:id="tanggalPenerimaanColumn" prefWidth="145.60003662109375" text="Tanggal Penerimaan" />
+            <TableColumn fx:id="jenisColumn" prefWidth="92.0" text="Jenis" />
+            <TableColumn fx:id="nominalColumn" prefWidth="75.0" text="Nominal" />
+              </columns>
+            </TableView>
+            <Text layoutX="307.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data Pengguna">
+               <font>
+                  <Font name="Tw Cen MT Condensed Extra Bold" size="40.0" />
+               </font>
+            </Text>
+            <Button layoutX="848.0" layoutY="243.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="130.0" style="-fx-background-color: rgba(243, 145, 53, 1);" text="Edit Data" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="848.0" layoutY="313.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="130.0" style="-fx-background-color: rgba(243, 145, 53, 1);" text="Hapus Data" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <TextField layoutX="1101.0" layoutY="412.0" prefHeight="52.0" prefWidth="262.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <Button layoutX="1101.0" layoutY="484.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="130.0" style="-fx-background-color: rgba(243, 145, 53, 1);" text="Kirim" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="1101.0" layoutY="363.0" text="Nominal" textFill="#5a9bf0">
+               <font>
+                  <Font name="Arial Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="1101.0" layoutY="232.0" text="Jenis" textFill="#5a9bf0">
+               <font>
+                  <Font name="Arial Bold" size="36.0" />
+               </font>
+            </Label>
+            <CheckBox layoutX="1101.0" layoutY="274.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="165.0" text="Investasi">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </CheckBox>
+            <CheckBox layoutX="1101.0" layoutY="317.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="165.0" text="Asuransi">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </CheckBox>
+         </children>
+      </AnchorPane>
+      <Pane layoutX="233.0" layoutY="98.0" prefHeight="52.0" prefWidth="1475.0" style="-fx-background-color: rgba(90, 155, 240, 1); -fx-background-radius: 5px;">
+         <children>
+            <Button fx:id="berandaButton" layoutX="58.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="113.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Beranda" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Semibold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="notifikasiButton" layoutX="329.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="165.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Notifikasi" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Semibold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="pengelolaanAkunButton" layoutX="666.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="207.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Pengelolaan Akun" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Semibold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="akunButton" layoutX="1328.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Akun" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="kirimButton" layoutX="1031.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="165.0" style="-fx-background-color: rgba(90, 155, 240, 1);" text="Kirim Produk" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Semibold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Button fx:id="simpanDataButton" layoutX="848.0" layoutY="380.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="130.0" style="-fx-background-color: rgba(243, 145, 53, 1);" text="Simpan Data" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
